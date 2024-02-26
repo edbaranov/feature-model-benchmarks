@@ -1,0 +1,20 @@
+abstract DuneSystem
+	xor Precon
+		SeqGs
+		SeqSOR
+	xor Solver
+		CGSolver
+		BiCGSTABSolver
+		LoopSolver
+		GradientSolver
+	pre -> integer
+	[pre >= 0]
+	[pre <= 6]
+	post -> integer
+	[post >= 0]
+	[post <= 6]
+	[pre + post > 0]
+	cells -> integer
+	[cells >= 50]
+	[cells <= 55]
+Cp : DuneSystem

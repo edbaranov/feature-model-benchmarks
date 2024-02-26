@@ -1,0 +1,22 @@
+abstract HSMGP
+	xor CGS
+		CGS_RED_AMG
+		CGS_IP_CG
+		CGS_IP_AMG
+	xor Smoother
+		Smoother_CGS
+		Smoother_GSAC
+		Smoother_GSACBE
+		Smoother_GSRB
+		Smoother_GSRBAC
+		Smoother_JAC
+	pre -> integer
+	[pre >= 0]
+	[pre <= 6]
+	post -> integer
+	[post >= 0]
+	[post <= 6]
+	[pre + post > 0]
+	numCore -> integer
+	[numCore = 64 || numCore = 256 || numCore = 1024 || numCore = 4096]
+Cp : HSMGP

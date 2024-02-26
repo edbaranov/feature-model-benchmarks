@@ -1,0 +1,32 @@
+abstract 6..7 Trimesh
+	xor cycle
+		V
+		F
+	RelaxParameter
+	xor smoother
+		Jacobi
+		colorGS
+		line
+		zebraLine
+	preSmoothing -> integer
+	[preSmoothing >= 0]
+	[preSmoothing <= 8]
+	postSmoothing -> integer
+	[postSmoothing >= 0]
+	[postSmoothing <= 8]
+	[preSmoothing + postSmoothing > 0]
+	alpha -> integer
+	[alpha = 5 || alpha = 10 || alpha = 15 || alpha = 20 || alpha = 25 || alpha = 30 || alpha = 35 || alpha = 40 || alpha = 45 || alpha = 50 || alpha = 55 || alpha = 60 || alpha = 65 || alpha = 70 || alpha = 75 || alpha = 80 || alpha = 85 || alpha = 90]
+	beta -> integer
+	[beta = 5 || beta = 10 || beta = 15 || beta = 20 || beta = 25 || beta = 30 || beta = 35 || beta = 40 || beta = 45 || beta = 50 || beta = 55 || beta = 60 || beta = 65 || beta = 70 || beta = 75 || beta = 80 || beta = 85 || beta = 90]
+	[alpha + beta >= 90]
+	[alpha + beta < 180]
+Cp : Trimesh
+[cycle]
+[smoother]
+[preSmoothing]
+[postSmoothing]
+[alpha]
+[beta]
+
+

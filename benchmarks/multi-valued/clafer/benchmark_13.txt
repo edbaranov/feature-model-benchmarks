@@ -1,0 +1,188 @@
+abstract or benchmark_13
+    V0
+    V1
+    V2
+    V3
+    V4
+    V5
+    MV6 -> integer
+    [MV6]
+    [MV6 >= 0]
+    [MV6 < 3]
+    V7
+    V8
+    V9
+    V10
+    V11
+    V12
+    V13
+    V14
+    V15
+    V16
+    V17
+    V18
+    V19
+    V20
+    V21
+    V22
+    V23
+    V24
+    V25
+    MV26 -> integer
+    [MV26]
+    [MV26 >= 0]
+    [MV26 < 5]
+    V27
+    V28
+    MV29 -> integer
+    [MV29]
+    [MV29 >= 0]
+    [MV29 < 6]
+    MV30 -> integer
+    [MV30]
+    [MV30 >= 0]
+    [MV30 < 4]
+    V31
+    V32
+    V33
+    V34
+    V35
+    V36
+    V37
+    V38
+    V39
+    V40
+    V41
+    V42
+    V43
+    V44
+    V45
+    V46
+    V47
+    V48
+    V49
+    V50
+    V51
+    V52
+    MV53 -> integer
+    [MV53]
+    [MV53 >= 0]
+    [MV53 < 5]
+    V54
+    V55
+    V56
+    V57
+    V58
+    V59
+    V60
+    V61
+    V62
+    MV63 -> integer
+    [MV63]
+    [MV63 >= 0]
+    [MV63 < 3]
+    V64
+    V65
+    V66
+    V67
+    V68
+    V69
+    V70
+    V71
+    V72
+    V73
+    V74
+    V75
+    V76
+    MV77 -> integer
+    [MV77]
+    [MV77 >= 0]
+    [MV77 < 6]
+    V78
+    V79
+    V80
+    V81
+    V82
+    V83
+    V84
+    V85
+    V86
+    MV87 -> integer
+    [MV87]
+    [MV87 >= 0]
+    [MV87 < 3]
+    V88
+    V89
+    V90
+    V91
+    V92
+    V93
+    V94
+    V95
+    V96
+    V97
+    V98
+    V99
+    V100
+    V101
+    V102
+    V103
+    V104
+    V105
+    MV106 -> integer
+    [MV106]
+    [MV106 >= 0]
+    [MV106 < 3]
+    V107
+    V108
+    V109
+    V110
+    V111
+    V112
+    V113
+    V114
+    V115
+    V116
+    V117
+    V118
+    V119
+    V120
+    V121
+    V122
+    V123
+    V124
+    V125
+    V126
+    V127
+    V128
+    V129
+    V130
+    V131
+    V132
+Cp : benchmark_13
+[ not V20 || not MV26 = 4]
+[ not V8 || not V25]
+[ V21 || V24]
+[ not V25 || not MV26 = 0]
+[ V4 || not MV6 = 0]
+[ V19 || not V21]
+[ V16 || V17]
+[ V22 || not V23]
+[ not V25 || not MV26 = 3]
+[ V23 || V24]
+[ V15 || not MV26 = 3]
+[ V25 || not MV26 = 3]
+[ V5 || not V25]
+[ not V7 || V23]
+[ not V21 || not V22]
+[ not V21 || not V25]
+[ not V10 || not V21]
+[ V1 || V9]
+[ V21 || not V22]
+[ not V23 || not MV26 = 0]
+[ V11 || V23]
+[ V3 || V12]
+[ not V0 || not V18 || V20]
+[ not V2 || V13 || not MV26 = 4]
+[ not V14 || V21 || V23]
+[ not V23 || not V24 || not MV26 = 2]

@@ -1,0 +1,145 @@
+abstract or benchmark_spinv
+    V0
+    V1
+    V2
+    V3
+    V4
+    V5
+    V6
+    V7
+    V8
+    V9
+    V10
+    V11
+    V12
+    V13
+    V14
+    V15
+    V16
+    V17
+    V18
+    V19
+    V20
+    V21
+    V22
+    V23
+    V24
+    V25
+    V26
+    V27
+    V28
+    V29
+    V30
+    V31
+    V32
+    V33
+    V34
+    V35
+    V36
+    V37
+    V38
+    V39
+    V40
+    V41
+    MV42 -> integer
+    [MV42]
+    [MV42 >= 0]
+    [MV42 < 3]
+    MV43 -> integer
+    [MV43]
+    [MV43 >= 0]
+    [MV43 < 3]
+    MV44 -> integer
+    [MV44]
+    [MV44 >= 0]
+    [MV44 < 4]
+    MV45 -> integer
+    [MV45]
+    [MV45 >= 0]
+    [MV45 < 4]
+    MV46 -> integer
+    [MV46]
+    [MV46 >= 0]
+    [MV46 < 4]
+    MV47 -> integer
+    [MV47]
+    [MV47 >= 0]
+    [MV47 < 4]
+    MV48 -> integer
+    [MV48]
+    [MV48 >= 0]
+    [MV48 < 4]
+    MV49 -> integer
+    [MV49]
+    [MV49 >= 0]
+    [MV49 < 4]
+    MV50 -> integer
+    [MV50]
+    [MV50 >= 0]
+    [MV50 < 4]
+    MV51 -> integer
+    [MV51]
+    [MV51 >= 0]
+    [MV51 < 4]
+    MV52 -> integer
+    [MV52]
+    [MV52 >= 0]
+    [MV52 < 4]
+    MV53 -> integer
+    [MV53]
+    [MV53 >= 0]
+    [MV53 < 4]
+    MV54 -> integer
+    [MV54]
+    [MV54 >= 0]
+    [MV54 < 4]
+Cp : benchmark_spinv
+[ not V1 || not MV42 = 1]
+[ not V1 || not MV42 = 2]
+[ not MV42 = 1 || not MV43 = 1]
+[ not MV42 = 1 || not MV43 = 2]
+[ not MV42 = 2 || not MV43 = 1]
+[ not MV42 = 2 || not MV43 = 2]
+[ not V1 || not MV43 = 1]
+[ not V1 || not MV43 = 2]
+[ not V2 || not V3]
+[ not V2 || not V4]
+[ not V2 || not V5]
+[ not V3 || not V4]
+[ not V3 || not V5]
+[ not V4 || not V5]
+[ not MV44 = 1 || not MV45 = 1]
+[ not MV44 = 1 || not MV45 = 2]
+[ not MV44 = 1 || not MV45 = 3]
+[ not MV44 = 2 || not MV45 = 1]
+[ not MV44 = 2 || not MV45 = 2]
+[ not MV44 = 2 || not MV45 = 3]
+[ not MV44 = 3 || not MV45 = 1]
+[ not MV44 = 3 || not MV45 = 2]
+[ not MV44 = 3 || not MV45 = 3]
+[ not V6 || not V7]
+[ not V8 || not V9]
+[ not V8 || not V10]
+[ not V11 || not V12]
+[ not V6 || not MV46 = 1]
+[ not V6 || not MV46 = 2]
+[ not V6 || not MV46 = 3]
+[ not V13 || not V14]
+[ not V10 || not V15]
+[ not V9 || V15]
+[ not V16 || V17]
+[ V14 || not V18]
+[ not V10 || V14]
+[ V9 || not V15]
+[ V12 || not V20]
+[ V12 || not V21]
+[ V12 || not V22]
+[ not V23 || not MV47 = 0]
+[ not MV48 = 1 || not MV49 = 0]
+[ not MV48 = 2 || not MV49 = 0]
+[ not MV48 = 3 || not MV49 = 0]
+[ not V24 || not MV49 = 0]
+[ V16 || not V17]
+[ V12 || not V25]
+[ not V12 || V21 || not V26]
+[ not V7 || V9 || V10]

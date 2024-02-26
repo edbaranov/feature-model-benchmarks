@@ -1,0 +1,50 @@
+abstract or benchmark_23
+    V0
+    V1
+    V2
+    V3
+    MV4 -> integer
+    [MV4]
+    [MV4 >= 0]
+    [MV4 < 6]
+    V5
+    V6
+    V7
+    V8
+    V9
+    V10
+    V11
+    V12
+    V13
+    V14
+    V15
+    V16
+    MV17 -> integer
+    [MV17]
+    [MV17 >= 0]
+    [MV17 < 3]
+    V18
+    V19
+    V20
+    V21
+    V22
+    V23
+    V24
+    V25
+    V26
+Cp : benchmark_23
+[ not V0 || V1]
+[ not MV4 = 4 || not V5]
+[ not MV4 = 5 || not V5]
+[ not V0 || V1]
+[ V3 || not MV4 = 4]
+[ not V3 || not MV4 = 5]
+[ V1 || not MV4 = 0]
+[ not V0 || V3]
+[ not V1 || not MV4 = 3]
+[ not V1 || V2]
+[ V3 || V5]
+[ not V3 || V5]
+[ V3 || V5]
+[ V0 || not MV4 = 2 || not V5]
+[ not V0 || V1 || not V3]

@@ -1,0 +1,48 @@
+abstract or benchmark_spins
+    V0
+    V1
+    V2
+    V3
+    V4
+    V5
+    V6
+    V7
+    V8
+    V9
+    V10
+    V11
+    V12
+    MV13 -> integer
+    [MV13]
+    [MV13 >= 0]
+    [MV13 < 4]
+    MV14 -> integer
+    [MV14]
+    [MV14 >= 0]
+    [MV14 < 4]
+    MV15 -> integer
+    [MV15]
+    [MV15 >= 0]
+    [MV15 < 4]
+    MV16 -> integer
+    [MV16]
+    [MV16 >= 0]
+    [MV16 < 4]
+    MV17 -> integer
+    [MV17]
+    [MV17 >= 0]
+    [MV17 < 4]
+Cp : benchmark_spins
+[ not V0 || not V1]
+[ not V0 || not V2]
+[ not V0 || not MV13 = 1]
+[ not V0 || not MV14 = 1]
+[ not V0 || not MV14 = 2]
+[ not V0 || not MV14 = 3]
+[ not V0 || not MV15 = 1]
+[ not V0 || not MV15 = 2]
+[ not V0 || not MV15 = 3]
+[ not V12 || not MV15 = 1]
+[ not V12 || not MV15 = 2]
+[ not V12 || not MV15 = 3]
+[ not V3 || V4]

@@ -1,0 +1,268 @@
+abstract or benchmark_20
+    V0
+    V1
+    MV2 -> integer
+    [MV2]
+    [MV2 >= 0]
+    [MV2 < 5]
+    V3
+    V4
+    V5
+    V6
+    V7
+    V8
+    MV9 -> integer
+    [MV9]
+    [MV9 >= 0]
+    [MV9 < 6]
+    V10
+    V11
+    V12
+    V13
+    MV14 -> integer
+    [MV14]
+    [MV14 >= 0]
+    [MV14 < 5]
+    V15
+    V16
+    V17
+    V18
+    V19
+    V20
+    V21
+    V22
+    V23
+    MV24 -> integer
+    [MV24]
+    [MV24 >= 0]
+    [MV24 < 4]
+    V25
+    V26
+    V27
+    V28
+    V29
+    MV30 -> integer
+    [MV30]
+    [MV30 >= 0]
+    [MV30 < 6]
+    V31
+    V32
+    MV33 -> integer
+    [MV33]
+    [MV33 >= 0]
+    [MV33 < 5]
+    V34
+    V35
+    V36
+    V37
+    V38
+    V39
+    V40
+    V41
+    MV42 -> integer
+    [MV42]
+    [MV42 >= 0]
+    [MV42 < 4]
+    V43
+    V44
+    V45
+    V46
+    V47
+    V48
+    V49
+    V50
+    V51
+    V52
+    V53
+    V54
+    V55
+    V56
+    V57
+    V58
+    V59
+    V60
+    V61
+    V62
+    V63
+    V64
+    V65
+    V66
+    V67
+    V68
+    MV69 -> integer
+    [MV69]
+    [MV69 >= 0]
+    [MV69 < 4]
+    V70
+    V71
+    MV72 -> integer
+    [MV72]
+    [MV72 >= 0]
+    [MV72 < 6]
+    V73
+    MV74 -> integer
+    [MV74]
+    [MV74 >= 0]
+    [MV74 < 3]
+    V75
+    V76
+    V77
+    V78
+    V79
+    V80
+    V81
+    V82
+    V83
+    V84
+    MV85 -> integer
+    [MV85]
+    [MV85 >= 0]
+    [MV85 < 3]
+    V86
+    V87
+    V88
+    V89
+    V90
+    V91
+    V92
+    MV93 -> integer
+    [MV93]
+    [MV93 >= 0]
+    [MV93 < 6]
+    V94
+    V95
+    V96
+    V97
+    MV98 -> integer
+    [MV98]
+    [MV98 >= 0]
+    [MV98 < 4]
+    MV99 -> integer
+    [MV99]
+    [MV99 >= 0]
+    [MV99 < 4]
+    V100
+    V101
+    V102
+    V103
+    V104
+    V105
+    MV106 -> integer
+    [MV106]
+    [MV106 >= 0]
+    [MV106 < 3]
+    V107
+    V108
+    V109
+    V110
+    V111
+    V112
+    V113
+    MV114 -> integer
+    [MV114]
+    [MV114 >= 0]
+    [MV114 < 6]
+    V115
+    V116
+    V117
+    V118
+    V119
+    V120
+    MV121 -> integer
+    [MV121]
+    [MV121 >= 0]
+    [MV121 < 6]
+    V122
+    V123
+    V124
+    V125
+    V126
+    V127
+    V128
+    MV129 -> integer
+    [MV129]
+    [MV129 >= 0]
+    [MV129 < 5]
+    V130
+    MV131 -> integer
+    [MV131]
+    [MV131 >= 0]
+    [MV131 < 3]
+    V132
+    V133
+    V134
+    MV135 -> integer
+    [MV135]
+    [MV135 >= 0]
+    [MV135 < 6]
+    V136
+    V137
+    V138
+    V139
+    V140
+    V141
+    V142
+    V143
+    V144
+    V145
+    V146
+    V147
+    V148
+    V149
+    V150
+    V151
+    V152
+    V153
+    V154
+    V155
+    V156
+    V157
+Cp : benchmark_20
+[ not MV14 = 2 || V29]
+[ not V3 || not MV30 = 3]
+[ not V7 || V22]
+[ not MV30 = 5 || not V31]
+[ V29 || V31]
+[ not MV2 = 2 || not V17]
+[ not MV24 = 2 || not V31]
+[ V20 || V22]
+[ not V23 || not V29]
+[ not MV9 = 0 || V29]
+[ not V27 || not V28]
+[ not MV24 = 3 || V26]
+[ not V5 || V12]
+[ not V7 || not V27]
+[ V1 || V31]
+[ V0 || not MV30 = 0]
+[ not V25 || V26]
+[ not V27 || V31]
+[ V21 || V23]
+[ V13 || V22]
+[ V12 || V26]
+[ not V19 || not V23]
+[ not V28 || not V31]
+[ not V28 || V29]
+[ not V16 || V18]
+[ V5 || not V25]
+[ not V13 || V21]
+[ V8 || not V11]
+[ V0 || not V10]
+[ V0 || not MV9 = 3]
+[ V18 || V28]
+[ V4 || not V29]
+[ V15 || not V28]
+[ not V22 || not V28]
+[ V28 || not V31]
+[ not MV9 = 3 || not MV24 = 0]
+[ V6 || not MV30 = 4]
+[ not V3 || not V19]
+[ not V4 || not MV24 = 1]
+[ V17 || V28]
+[ V0 || V10]
+[ not V3 || V28]
+[ V11 || not V20 || not MV24 = 3]
+[ not V4 || V6 || not V27]
+[ V5 || not V17 || V26]
+[ not MV2 = 0 || V8 || V27]
+[ V12 || not V25 || not V28]
+[ not MV14 = 4 || not V26 || not V27]

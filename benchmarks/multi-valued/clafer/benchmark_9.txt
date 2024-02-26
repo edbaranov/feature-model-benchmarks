@@ -1,0 +1,112 @@
+abstract or benchmark_9
+    V0
+    MV1 -> integer
+    [MV1]
+    [MV1 >= 0]
+    [MV1 < 3]
+    V2
+    V3
+    V4
+    V5
+    V6
+    V7
+    V8
+    V9
+    V10
+    MV11 -> integer
+    [MV11]
+    [MV11 >= 0]
+    [MV11 < 6]
+    V12
+    V13
+    V14
+    V15
+    V16
+    V17
+    V18
+    V19
+    V20
+    V21
+    V22
+    V23
+    V24
+    V25
+    V26
+    V27
+    V28
+    V29
+    V30
+    V31
+    V32
+    V33
+    V34
+    MV35 -> integer
+    [MV35]
+    [MV35 >= 0]
+    [MV35 < 4]
+    V36
+    V37
+    V38
+    V39
+    V40
+    V41
+    V42
+    V43
+    V44
+    V45
+    V46
+    V47
+    V48
+    V49
+    MV50 -> integer
+    [MV50]
+    [MV50 >= 0]
+    [MV50 < 5]
+    V51
+    V52
+    V53
+    V54
+    V55
+    V56
+    V57
+    V58
+    V59
+    V60
+Cp : benchmark_9
+[ not MV1 = 2 || not V4]
+[ not MV1 = 2 || V12]
+[ not V6 || not MV11 = 3]
+[ V8 || not MV11 = 2]
+[ not V4 || not MV11 = 3]
+[ V4 || not V9]
+[ not V2 || not V5]
+[ not V4 || V12]
+[ not V5 || V12]
+[ not MV1 = 2 || V2]
+[ not V2 || not MV11 = 1]
+[ V3 || not V8]
+[ not V10 || not V12]
+[ V10 || not MV11 = 4]
+[ not V4 || V8]
+[ not V6 || not V7]
+[ not V5 || not V8]
+[ V3 || not V5]
+[ V4 || V7]
+[ not V8 || V10]
+[ not V2 || not V5]
+[ V2 || V5]
+[ not V7 || not V10]
+[ not MV1 = 0 || V12]
+[ not V5 || not V8]
+[ not V3 || V9]
+[ not V3 || V7]
+[ not MV1 = 2 || V12]
+[ not V4 || not MV11 = 5]
+[ V0 || not MV11 = 3]
+[ V0 || V6 || V9]
+[ V6 || not V7 || not V10]
+[ not MV1 = 2 || not V10 || V12]
+[ V3 || not V5 || V7]
+[ not V4 || not V9 || not MV11 = 0]
+[ not MV1 = 0 || V5 || V6]
+[ not V4 || not V8 || V12]

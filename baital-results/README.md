@@ -7,6 +7,8 @@ This folder contains a set of evaluation results of the Baital tool in csv forma
 
 * baital_cmsgen_$i.csv for i in [3..6]: sampling with CMSGen (default option). Strategies 5 and 3 with \-\-preprocess-approximate option are tested. Sampling time includes only time of the sampling step.   
 
+* baital_vs_uniform_2.csv: Sampling with CMSGen and WAPS, strategy 5. For uniform results: sampling with WAPS and the number of rounds is 1 (\-\-waps \-\-rounds 1).
+
 * multi-valued_2.csv: baital_nf.py \-\-twise 2 \-\-strategy 5 \-\-samples 200 \-\-cov\-approximate  
 * multi-valued_3.csv: baital_nf.py \-\-twise 3 \-\-strategy 3 \-\-samples 200 \-\-preprocess\-approximate \-\-cov\-approximate  
 
